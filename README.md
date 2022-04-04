@@ -1,7 +1,7 @@
 # Generative 3D Part Assembly via Dynamic Graph Learning
 
-This is the implementation of our WACV 2022 paper "RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly"   
-<<!-- <!-- a href="https://absdnd.github.io/" target="_blank">*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>. --> -->
+This is the implementation of our WACV 2022 paper "RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly". Our framework builds on the work "Generative 3D Part Assembly using Dynamic Graph Learning". Please check out their work [here](https://hyperplane-lab.github.io/Generative-3D-Part-Assembly/) 
+ <!-- a href="https://absdnd.github.io/" target="_blank">*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>. --> 
 
 ![image1](./images/image1.png)
 
@@ -43,15 +43,12 @@ This repository provides data and code as follows.
 
 ```
 
-This code has been tested on Ubuntu 16.04 with Cuda 10.0.130, GCC 7.5.0, Python 3.7.6 and PyTorch 1.1.0. 
-
-Download the [pre-processed data](http://download.cs.stanford.edu/orion/genpartass/prepare_data.zip) for the .npy data files in file prepare_data/
+Please download the [pre-processed data] here(http://download.cs.stanford.edu/orion/genpartass/prepare_data.zip). 
 
 
 ## Dependencies
 
-Please run
-    
+To create a conda environment
 
         conda env create -f environment.yaml
         . activate PartAssembly
