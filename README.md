@@ -1,7 +1,7 @@
 # Generative 3D Part Assembly via Dynamic Graph Learning
 
-This is the implementation of NeurIPS 2020 paper "Generative 3D Part Assembly via Dynamic Graph Learning" created by 
-<a href="https://jialeihuang.github.io/" target="_blank">Jialei Huang*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>.
+This is the implementation of our WACV 2022 paper "RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly"   
+<<!-- <!-- a href="https://absdnd.github.io/" target="_blank">*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>. --> -->
 
 ![image1](./images/image1.png)
 
@@ -90,6 +90,15 @@ Please post issues for questions and more helps on this Github repo page. We enc
 
 
 ## Citation
+
+If you utilize the model in this paper, please cite - 
+    
+    @InProceedings{narayan2022rgl,
+    title={RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly},
+    author={Narayan, Abhinav and Nagar, Rajendra and Raman, Shanmuganathan},
+    booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+    year={2022}
+    }
 
     @InProceedings{HuangZhan2020PartAssembly,
         author = {Huang, Jialei and Zhan, Guanqi and Fan, Qingnan and Mo, Kaichun and Shao, Lin and Chen, Baoquan and Guibas, Leonidas and Dong, Hao},
