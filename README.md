@@ -2,7 +2,7 @@
 This is the implementation of our WACV 2022 paper "RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly". Our framework builds on the work "Generative 3D Part Assembly using Dynamic Graph Learning". Please check out their work [here](https://hyperplane-lab.github.io/Generative-3D-Part-Assembly/) 
  <!-- a href="https://absdnd.github.io/" target="_blank">*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>. --> 
 
-![image1](./images/fc_fc5.png)
+<!-- ![image1](./images/fc_fc5.png)
 
 The proposed dynamic graph learning framework. The iterative graph neural network backbone takes a set of part point clouds as inputs and conducts 5 iterations of graph message-passing for coarse-to-fine part assembly refinements. The graph dynamics is encoded into two folds, (a) reasoning the part relation (graph structure) from the part pose estimation, which in turn also evolves from the updated part relations, and (b) alternatively updating the node set by aggregating all the geometrically-equivalent parts (the red and purple nodes), e.g. two chair arms, into a single node (the yellow node) to perform graph learning on a sparse node set for even time steps, and unpooling these nodes to the dense node set for odd time steps. Note the semi-transparent nodes and edges are not included in graph learning of certain time steps.
 
@@ -110,4 +110,4 @@ MIT License
 ## Todos
 
 Please request in Github Issue for more code to release.
-
+ -->
