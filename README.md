@@ -1,5 +1,7 @@
 # RGL-NET: Recurrent Graph Learning for Progressive Part Assembly
 This is the implementation of our WACV 2022 paper "RGL-NET: A Recurrent Graph Learning Framework for Progressive Part Assembly". Our framework builds on the work "Generative 3D Part Assembly using Dynamic Graph Learning". Please check out their work [here](https://hyperplane-lab.github.io/Generative-3D-Part-Assembly/) 
+
+The pretrained models can be accessed [here](https://drive.google.com/drive/folders/1DyY3fFWDQzMhgL-eeCFHIwrVk7YV8n-2?usp=sharing) 
  <!-- a href="https://absdnd.github.io/" target="_blank">*</a>, <a href="https://championchess.github.io/" target="_blank">Guanqi Zhan*</a>, <a href="https://fqnchina.github.io/" target="_blank">Qingnan Fan</a>, <a href="https://cs.stanford.edu/~kaichun/" target="_blank">Kaichun Mo</a>, <a href="https://linsats.github.io/" target="_blank">Lin Shao</a>, <a href="https://cfcs.pku.edu.cn/baoquan/" target="_blank">Baoquan Chen</a>, <a href="https://geometry.stanford.edu/member/guibas/index.html" target="_blank">Leonidas Guibas</a> and <a href="https://zsdonghao.github.io/" target="_blank">Hao Dong</a>. --> 
 
 <!-- ![image1](./images/fc_fc5.png)
